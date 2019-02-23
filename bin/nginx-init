@@ -2,9 +2,9 @@
 
 set -e
 
-DAEMON=/home/action/apps/nginx/bin/nginx
-PIDFILE=/home/action/apps/nginx/var/run.nginx.pid
-DAEMON_ARGS="-c /home/action/apps/nginx/conf/nginx.conf"
+DAEMON=/opt/nginx/nginx/bin/nginx
+PIDFILE=/opt/nginx/nginx/var/run.nginx.pid
+DAEMON_ARGS="-c /opt/nginx/nginx/conf/nginx.conf"
 NAME=$(basename $DAEMON)
 
 
